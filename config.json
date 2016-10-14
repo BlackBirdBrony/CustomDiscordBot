@@ -1,12 +1,15 @@
 {
-	"nick": "Nazwa bota",
-	"token": "",
-	"prefix": "Od czego będą zaczynały sie komendy (o ile będą)",
-	"game": "Nazwa gry w którą gra bot (na liście osób)",
-	"roleID": "ID roli którą na dawać gdy ktoś wejdzie",
+	"nick": "Sweetie Bot",
+	"token": "LoL nope",
+	"prefix": "!",
+	"game": "Rozdawanie ról",
+	"rolesID": {
+		"auto": "224595492875534337",
+		"NSFW": "231858423384375296"
+	},
 	"static": {
 		"modulesPath": "./",
 		"creator": "BlackBird",
-		"version": "0.1",
+		"version": "0.1"
 	}
 }
