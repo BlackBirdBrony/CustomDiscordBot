@@ -15,5 +15,5 @@ setTimeout(function() {
 var dcCount = 0
 client.on('reconnecting', () => {
 	dcCount++
-    console.log("Bot roz³¹czony po raz "+dcCount+", ³¹cze ponownie");
+    console.log("Bot disconnected for "+dcCount+"th time, reconnecting");
 });
