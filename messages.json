@@ -1,3 +1,6 @@
 ﻿{
-	"gotRoleNSFW": "Otrzymałeś role NSFW"
+	"addRoleNSFW": "Otrzymałeś role NSFW",
+	"delRoleNSFW": "Straciłeś role NSFW",
+	"addRolePsycho": "Otrzymałeś role Psychopaci",
+	"delRolePsycho": "Straciłeś role Psychopaci"
 }
