@@ -1,9 +1,9 @@
 {
-	"nick": "",
+	"nick": "Nazwa bota",
 	"token": "",
-	"prefix": "!",
-	"game": "Discord.js 9.3.0",
-	"roleID": "",
+	"prefix": "Od czego będą zaczynały sie komendy (o ile będą)",
+	"game": "Nazwa gry w którą gra bot (na liście osób)",
+	"roleID": "ID roli którą na dawać gdy ktoś wejdzie",
 	"static": {
 		"modulesPath": "./",
 		"creator": "BlackBird",
