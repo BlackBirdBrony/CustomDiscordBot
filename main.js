@@ -7,12 +7,13 @@ const modulesPath = config.static.modulesPath
 var setRangs = require(modulesPath+"autoRangs.js")
 setRangs(client)
 
-var dcCount = 0
+
 setTimeout(function() {
 		client.user.setStatus("online",config.game)
 		console.log("Set status to online and game to"+config.game)
-	}, 6000);
+	}, 3000);
+var dcCount = 0
 client.on('reconnecting', () => {
 	dcCount++
-    console.log("Bot roz³¹czony po raz "+dcCount+", ³¹cze ponownie");
+    console.log("Bot rozÂ³Â¹czony po raz "+dcCount+", Â³Â¹cze ponownie");
 });
